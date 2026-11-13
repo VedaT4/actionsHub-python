@@ -15,3 +15,5 @@ def test_division():
 
 def test_invalid_operator():
     assert calculate(10, "%", 3) is None
+
+#predicted result: only the first test runs
