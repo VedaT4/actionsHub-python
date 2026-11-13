@@ -11,4 +11,3 @@ def test_greet_user_different_name(capsys):
     captured = capsys.readouterr()
     assert captured.out == "Hello Bob\n"
 
-#prediction: no test will pass
